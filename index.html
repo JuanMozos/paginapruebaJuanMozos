@@ -1,0 +1,258 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>mi segunda web</title>
+<link href="icono.ico" rel="icon" /><!-- para insertar un icono-->
+<link href="style.css" rel="stylesheet" type="text/css" >
+<link href="animacion.css" rel="stylesheet" type="text/css" />
+<script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+MADRILEÑO
+<BR>
+<div id="info"> Desde el IES CONDESA</div>
+<div id="aviso"> NOS GUSTA TIC</div>
+<canvas id="pjsCanvas" >h</canvas>
+<div id="html"><img id="html" src="portada juanb.png"></div>
+
+<header>ESTAMOS INTENTANDO HACER UNA WEB ACEPTABLE PARA EL INSTI EN HTMPL</head>
+<body></header>
+<BR><BIG>
+TIC</BIG<BR>TIC<BR>TIC<BR>NATILLASTIC<BR>HELADOTIC<BR>HAMBURGUESASTIC<BR>
+
+
+
+<main> PARA DAR FORMATO A LOS TEXTOS UTILIZO ESTAS ETIQUETAS:
+<br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA </b>
+<br><i>ESTE PEQUEÑO TEXTO IRÁ EN CURSIVA</i>
+<br><U> VOY A PONER MI NOMBRE: JUAN MOZOS </U>
+<br><MARK>RECORDATORIO RESALTADO PARA JUAN DEL FUTURO DE TOMAR MI MEDICACION</MARK>
+ (Vamos a corregir la alineacion del texto anterior con la etiqueta center)
+ 
+<main> PARA DAR FORMATO A LOS TEXTOS UTILIZO ESTAS ETIQUETAS:
+<center><br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA </b>
+<br><i>ESTE PEQUEÑO TEXTO IRÁ EN CURSIVA</i>
+<br><U> VOY A PONER MI NOMBRE: JUAN MOZOS </U>
+<br><MARK>RECORDATORIO RESALTADO PARA JUAN DEL FUTURO DE TOMAR MI MEDICACION</MARK></center>
+
+<div align="right"> 
+<br> <b> ESTE TEXTO LO VOY A PONER EN NEGRITA </b>
+<br><i>ESTE PEQUEÑO TEXTO IRÁ EN CURSIVA</i>
+<br><U> VOY A PONER MI NOMBRE: JUAN MOZOS </U>
+<br><MARK>RECORDATORIO RESALTADO PARA JUAN DEL FUTURO DE TOMAR MI MEDICACION</MARK>
+</div>
+<p>para hacer un nuevo parrafo utilizo la etiqueta p. ahora me enrollo un poco escribiendo un monton de inutilidades y cosas absurdas como XD LOL JAJAJA GG y no se que mas, podria seguir, pero tengo el dedo indice derecho cansado, muchas gracias por leerlo Juan del futuro o quien sea.</p>
+
+
+ </main>
+ <p id="puntodos"> enlace interno</p>
+<!-- aqui voy a hacer un final de enlace interno para explicarlos-->
+ <center><font color="GREEN"><BIG><BIG><BIG>AHORA VAMOS A HACER LISTAS</font></center>
+ <UL>LISTA DE LOS NIÑOS DE LA CLASE</UL>
+ <BR><UL><LI>
+PRIMERA FILA SIN VIÑETA (nos pondra una viñeta por defecto) </LI>
+<LI> NOS PONDRA OTRA SEGUNDA FILA POR DEFECTO</LI></UL>
+OTRA SEGUNDA LISTA
+<UL> <LI type="square"> primera fila de esta nueva lista con cuadrado </li>
+<LI type="square"> segunda fila de esta nueva lista con cuadrado</li>
+<LI type="square"> tercera fila de esta nueva lista con cuadrado </li></ul>
+
+OTRA TERCERA LISTA
+<UL> <LI type="circle"> primera fila de esta nueva lista con circulo </li>
+<LI type="circle"> primera fila de esta nueva lista con circulo </li>
+<LI type="circle"> primera fila de esta nueva lista con circulo </li></ul>
+
+OTRA CUARTA LISTA
+<ul> <li type="DISC"> primera fila de esta nueva lista con circulo DE FONDO NEGRO</li>
+<LI type="DISC"> segunda fila de esta nueva lista con circulo DE FONDO NEGRO</li>
+<LI type="DISC"> primera fila de esta nueva lista con circulo DE FONDO NEGRO</li></ul>
+
+ UNA quinta lista mas divertida y personalizada por vosotros, Con la combinacion de
+ teclas windows + .(punto), se os abrira la opcion de colocar emojis
+<ul>💀primera fila</ul>
+<ul>☠️segunda fila</ul>
+ <BR><BR><BR><BR><BR>
+ 
+ <center><font color="purple"><BIG><BIG><BIG>AHORA VAMOS A HACER LISTAS NUMERADAS</font>
+ </BIG></BIG></BIG></CENTER>
+ <OL><!--aqui se colocaran por defecto en forma decimal-->
+		 <li>texto para un apartado de una lista</li>
+		 <li>texto para el segundo apartado de una lista</li>
+		 <li>texto para el tercer apartado de una lista</li>
+		 <li>texto para el cuarto apartado de una lista</li>
+		 </OL>
+ <OL type="a"><!--aqui se colocaran por defecto en orden alfabetico-->
+		 <li>texto para un apartado de una lista</li>
+		 <li>texto para el segundo apartado de una lista</li>
+		 <li>texto para el tercer apartado de una lista</li>
+		 <li>texto para el cuarto apartado de una lista</li>
+		 </OL>
+ <OL type="I"><!--aqui se colocaran por defecto en numeros romanos-->
+		 <li>texto para un apartado de una lista</li>
+		 <li>texto para el segundo apartado de una lista</li>
+		 <li>texto para el tercer apartado de una lista</li>
+		 <li>texto para el cuarto apartado de una lista</li>
+		 </OL>
+ <OL type="I"><!--aqui se colocaran por defecto en numeros romanos-->
+	 <li value="5">etiqueta para que el texto pueda empezar el apartado 5</li>
+		 <li>texto para un apartado de una lista</li>
+		 <li>texto para el segundo apartado de una lista</li>
+		 <li>texto para el tercer apartado de una lista</li>
+		 <li>texto para el cuarto apartado de una lista</li>
+		 </OL>
+	<p class="vamosaensayar"> Vamos a ensayar colocando una linea de texto verde y con curvitas y dejo de hacer galletas </p class>
+<center>
+	<table class="tabla1">
+	<caption>Mi primera tabla en html sin bordes</caption>
+		<tr>
+			<td> celda 1</td>
+			<td> celda 2</td>
+		</tr>
+		<tr>
+			<td> celda 3</td>
+			<td> celda 4</td>
+		</tr>
+		</table>
+		</center>
+		
+	<BR>
+	
+<center>
+	<table border="1">
+	<caption>Mi primera tabla en html sin bordes</caption>
+		<tr>
+			<td> celda 1</td>
+			<td> celda 2</td>
+		</tr>
+		<tr>
+			<td> celda 3</td>
+			<td> celda 4</td>
+	</tr>
+	</table>
+	</center>
+		
+	<BR>
+	
+<center>
+	<table border="1">
+	Mi tabla con celdas combinadas<!--aqui se podran ver celdas combinadas-->
+	<tr>
+		<td colspan="3"> celda que combina a tres columnas</td>
+	</tr>
+	<tr>
+		<td rowspan="2"> celda que combina a dos filas</td>
+			<td> celda normal</td>
+			<td> celda normal</td>
+	</tr>
+		<tr>
+			<td> celda normal</td>
+			<td> celda normal</td>
+	</tr>
+	</table>
+	</center>
+<center><font color="orange"><BIG><BIG><BIG>Vamos a ensayar
+colocando ahora una linea para separar contenidos</font>
+</BIG></BIG></BIG></center><BR><BR>
+
+<CENTER><BIG></BIG><B><I><U>IMAGENES<BR></B></I></U></BIG></BIG></CENTER>
+<center><img src="portada juan.png" alt="mi etiqueta" border="1"
+align="top" width="400" height="40%"></img></center>
+	<br>
+<center> AHORA LE VAMOS A QUITAR EL BORDE Y VAMOS A COLOCAR LA IMAGEN A LA DERECHA, 
+VAMOS A ENSANCHAR LA IMAGEN Y A DISMINUIR SU ALTURA</CENTER>
+<img src="portada juan.png" alt="mi etiqueta" border="0"
+align="right" width="600" height="200"></img>
+
+<CENTER><BIG><BIG><B><I><U>ENLACES<BR></B></I></U></BIG></BIG></CENTER>
+	<center>
+	<a href="https://www.google.es"> Pulsa aqui para acceder a google </a>
+<br>
+<br>
+<a href="https://www.google.es" target="_blank"> Pulsa aqui para acceder a google en una ventana nueva </a>
+	<br>
+ <a href="htmlcincoycss.pdf">descarga desde aqui el documento para elegir tema </a>
+	<br>
+ <a href="arriba.html">desde aqui, enlaza con otra pagina html </a>
+	<br>
+ <a href="#puntodos">desde aqui, vuelvo al enlace de EMPEZAMOS LISTA </a>
+	<!-- ESTO ES UN ENLACE INTERNO-->
+	<br>
+	
+	<BR><br>
+	<CENTER><BIG><BIG><B><I><U>INSERTAR UNA CANCION<BR></B></I></U></BIG></BIG></CENTER>
+	<center>
+	<BR>
+	<audio src="cancion.mp3" controls></audio>
+	<br>
+	<audio src="canciona.mp3" controls></audio>
+	<br>
+<CENTER><BIG><BIG><B><I><U>INSERTAR UN VIDEO<BR></B></I></U></BIG></BIG></CENTER>
+<video src="video.mp4" width="640" height="360" controls ></video>	
+<CENTER><BIG><BIG><B><I><U>INSERTAR UN MAPA<BR></B></I></U></BIG></BIG></CENTER>
+<iframe src="https://www.google.com/maps/embed?pb=!4v1791287434410!6m8!1m7!1spexgz4F74Q7YBaJOZyYRFw!2m2!1d59.33271799893397!2d18.06572676640713!3f284.04541848787!4f-5.380215728485098!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+<BR>
+<div id="caja1">-</div>
+
+
+
+
+
+	
+ <div id="caja1">-</div>
+		
+<BR><BR><BR><BR><BR>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</body>
+<nav id="menuhorizontal">
+<ul>
+ <li> <a href="htmlycss.pdf">boton uno</a></li>
+ <li> boton dos</li>
+ <li> boton tres</li>
+ </ul>
+ </nav>
+ 
+ <nav id="menuD">
+			<ul>
+				<li>Menu
+					<ul>
+						<li> <a href="htmlycss.pdf" target="_blank">Boton 1</a></li>
+						<li> Boton 2
+							<ul>
+								<li> <a href="https://www.google.es" target="_blank">Boton 2.1</a></li>
+								<li> Boton 2.2</li>
+							</ul>
+						</li>
+						<li> Boton 3</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+<br>
+<br><br><br><br><br><br><br><br>		
+<footer>
+sopa
+
+</footer>
+
+
+</html>
